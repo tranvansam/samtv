@@ -36,6 +36,7 @@
                   'relative px-4 py-2 text-sm font-medium text-white hover:text-orange-400 transition-all duration-300 rounded-lg hover:bg-white/5',
                   isActiveRoute(item.path) ? '!text-orange-400': ''
                 ]"
+                @click="scrollToTop"
               >
                 {{ item.label }}
                 <!-- Hover underline effect -->
@@ -105,7 +106,7 @@
                 'block px-4 py-3 text-white hover:text-orange-400 hover:bg-white/5 rounded-lg transition-all duration-300',
                 isActiveRoute(item.path) ? '!text-orange-400' : ''
               ]"
-              @click="showMobileMenu = false"
+              @click="scrollToTopAndCloseMenu"
             >
               {{ item.label }}
             </NuxtLink>
@@ -181,6 +182,20 @@ const getExternalUrl = (envKey) => {
 
 const toggleMobileMenu = () => {
   showMobileMenu.value = !showMobileMenu.value
+}
+
+// Function to scroll to top
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}
+
+// Function to scroll to top and close mobile menu
+const scrollToTopAndCloseMenu = () => {
+  scrollToTop()
+  showMobileMenu.value = false
 }
 
 // Handle scroll and click outside

@@ -18,7 +18,7 @@
       <!-- Hero Content -->
       <div class="relative z-10 max-w-7xl w-[100%] mx-auto px-8 mb-16">
         <div class="text-left max-w-4xl">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 mt-16">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 mt-16 lg:mt-32">
             <span
               class="text-white block text-2xl md:text-2xl lg:text-3xl font-medium mb-2"
             >
