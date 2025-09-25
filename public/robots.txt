@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://transam.dev/sitemap.xml
+
+# Disallow admin pages
+Disallow: /admin/
+Disallow: /admin/*
+
+# Allow all other content
+Allow: /gallery
+Allow: /blogs
+Allow: /contact
+Allow: /faqs
+Allow: /images/
+Allow: /fonts/
+
+# Crawl delay
+Crawl-delay: 1
