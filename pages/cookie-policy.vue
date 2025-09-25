@@ -1,185 +1,176 @@
 <template>
   <div>
     <PageTitle 
-      title="Cookie Policy" 
-      subtitle="Leadsmax Corporation Cookie Policy"
+      title="Chính Sách Cookie" 
+      subtitle="Trần Sâm - Lập Trình Viên & Ảo Thuật Gia"
       background-image="/images/faqs-bg.png"
     />
     
     <div class="container mx-auto px-4 py-16">
       <div class="max-w-4xl mx-auto prose prose-lg">
         <div class="bg-white rounded-lg shadow-lg p-8">
-          <h1 class="text-3xl font-bold text-gray-900 mb-8">LEADSMAX COOKIE POLICY</h1>
+          <h1 class="text-3xl font-bold text-gray-900 mb-8">CHÍNH SÁCH COOKIE</h1>
           
           <div class="space-y-6 text-gray-700">
             <div class="bg-orange-50 border-l-4 border-orange-400 p-4 mb-6">
               <p class="text-orange-800 font-semibold text-lg">
-                Cookies aren't just for dessert
+                Cookie không chỉ dành cho món tráng miệng
               </p>
             </div>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Cookies, Web Beacons and Similar Technology</h2>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Cookie, Web Beacon và Công Nghệ Tương Tự</h2>
               <p>
-                A cookie is a small data file placed on the hard drive of your computer when you visit a website.
+                Cookie là một tệp dữ liệu nhỏ được đặt trên ổ cứng máy tính của bạn khi bạn truy cập một trang web.
               </p>
               
               <div class="space-y-4 mt-6">
                 <div class="bg-gray-50 p-4 rounded-lg">
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">Session Cookie</h3>
                   <p>
-                    A "session cookie" expires immediately when you close your browser.
+                    "Session cookie" hết hạn ngay khi bạn đóng trình duyệt.
                   </p>
                 </div>
                 
                 <div class="bg-gray-50 p-4 rounded-lg">
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">Persistent Cookie</h3>
                   <p>
-                    A "persistent cookie" stores information so that when you return to the same website later, the cookie information is still available.
+                    "Persistent cookie" lưu trữ thông tin để khi bạn quay lại trang web sau, thông tin cookie vẫn có sẵn.
                   </p>
                 </div>
                 
                 <div class="bg-gray-50 p-4 rounded-lg">
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">Web Beacon</h3>
                   <p>
-                    A web beacon is a small string of code representing a clear graphic image, redirect URL, or javascript, and is used in conjunction with cookies.
+                    Web beacon là một chuỗi mã nhỏ đại diện cho hình ảnh đồ họa rõ ràng, URL chuyển hướng hoặc javascript, và được sử dụng kết hợp với cookie.
                   </p>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Cookies from Leadsmax</h2>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Cookie từ Website</h2>
               <p>
-                By accessing the Leadsmax website, including all related pages and subdomains, you are accepting and agreeing to the practices outlined in this Cookie Policy and our Privacy Policy.
+                Bằng cách truy cập website transam.dev, bạn đang chấp nhận và đồng ý với các thực tiễn được nêu trong chính sách Cookie này và chính sách Bảo mật của chúng tôi.
               </p>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">What Information Does Leadsmax Collect?</h2>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Thông Tin Website Thu Thập?</h2>
               <p class="mb-6">
-                Our primary goal in collecting information is to provide you with a fully functional website and efficient user experience.
+                Mục tiêu chính của chúng tôi trong việc thu thập thông tin là cung cấp cho bạn một website hoàn toàn chức năng và trải nghiệm người dùng hiệu quả.
               </p>
               
               <div class="space-y-6">
                 <div>
-                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Analytics Data</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Dữ Liệu Phân Tích</h3>
                   <ul class="list-disc pl-6 space-y-2">
-                    <li>We use Google Analytics and HubSpot to measure visitors, including what pages you view, how you arrived at our site, and basic information about your device.</li>
-                    <li>This information is anonymous and helps us improve the Site.</li>
+                    <li>Chúng tôi sử dụng Google Analytics để đo lường người truy cập, bao gồm những trang bạn xem, cách bạn đến trang web của chúng tôi, và thông tin cơ bản về thiết bị của bạn.</li>
+                    <li>Thông tin này là ẩn danh và giúp chúng tôi cải thiện website.</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3 class="text-xl font-semibold text-gray-900 mb-3">IP Addresses</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Địa Chỉ IP</h3>
                   <p>
-                    Leadsmax collects IP addresses to track and aggregate non-personal information, such as monitoring the regions from which you access the Site.
+                    Website thu thập địa chỉ IP để theo dõi và tổng hợp thông tin không cá nhân, chẳng hạn như giám sát các khu vực mà bạn truy cập website.
                   </p>
                 </div>
 
                 <div>
-                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Traffic Data</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Dữ Liệu Lưu Lượng</h3>
                   <ul class="list-disc pl-6 space-y-2">
-                    <li>We automatically receive and record certain "traffic data" on our server logs (including IP addresses, cookie information, and requested pages).</li>
-                    <li>This helps diagnose server problems, analyze trends, and administer the Service.</li>
+                    <li>Chúng tôi tự động nhận và ghi lại một số "dữ liệu lưu lượng" nhất định trong nhật ký máy chủ của chúng tôi (bao gồm địa chỉ IP, thông tin cookie và các trang được yêu cầu).</li>
+                    <li>Điều này giúp chẩn đoán sự cố máy chủ, phân tích xu hướng và quản lý dịch vụ.</li>
                   </ul>
                 </div>
 
                 <div>
-                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Personal Identifying Information</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Thông Tin Cá Nhân</h3>
                   <p>
-                    When you express interest in our services or register, we may request additional information such as job title, department, demographic information, or unique identifiers to provide a personalized experience.
+                    Khi bạn thể hiện sự quan tâm đến dịch vụ của chúng tôi hoặc đăng ký, chúng tôi có thể yêu cầu thông tin bổ sung như chức danh công việc, bộ phận, thông tin nhân khẩu học hoặc định danh duy nhất để cung cấp trải nghiệm cá nhân hóa.
                   </p>
                   <p class="mt-2">
-                    You can control and delete cookies from Leadsmax and third parties at any time.
+                    Bạn có thể kiểm soát và xóa cookie từ website và bên thứ ba bất kỳ lúc nào.
                   </p>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Email Communications</h2>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Liên Lạc Email</h2>
               <ul class="list-disc pl-6 space-y-2">
-                <li>We may receive a confirmation when you open an email from Leadsmax (if your device supports it).</li>
-                <li>We may send emails with information regarding Leadsmax services, promotions, or events.</li>
-                <li>If you request additional information through our Site, we may use your email address to provide further updates.</li>
+                <li>Chúng tôi có thể nhận được xác nhận khi bạn mở email từ website (nếu thiết bị của bạn hỗ trợ).</li>
+                <li>Chúng tôi có thể gửi email với thông tin về dịch vụ, khuyến mãi hoặc sự kiện của website.</li>
+                <li>Nếu bạn yêu cầu thông tin bổ sung thông qua website, chúng tôi có thể sử dụng địa chỉ email của bạn để cung cấp thêm cập nhật.</li>
               </ul>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Updates to this Policy</h2>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Cập Nhật Chính Sách</h2>
               <p>
-                We may update this Cookie Policy and our Privacy Policy from time to time as technology and practices evolve. You can always check this page for the latest version. If material changes occur, we may also notify you by email.
+                Chúng tôi có thể cập nhật chính sách Cookie và chính sách Bảo mật của chúng tôi theo thời gian khi công nghệ và thực tiễn phát triển. Bạn luôn có thể kiểm tra trang này để có phiên bản mới nhất. Nếu có thay đổi quan trọng, chúng tôi cũng có thể thông báo cho bạn qua email.
               </p>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Leadsmax Uses the Following Analytic Tools</h2>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Website Sử Dụng Các Công Cụ Phân Tích Sau</h2>
               
               <div class="space-y-6">
                 <div class="bg-blue-50 p-6 rounded-lg">
                   <h3 class="text-xl font-semibold text-gray-900 mb-3">Google Analytics</h3>
                   <ul class="list-disc pl-6 space-y-2">
-                    <li>Helps analyze how visitors use the Site.</li>
-                    <li>For more info: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Google Privacy Policy</a>.</li>
-                    <li>To opt out: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Google Analytics Opt-Out</a>.</li>
-                  </ul>
-                </div>
-
-                <div class="bg-green-50 p-6 rounded-lg">
-                  <h3 class="text-xl font-semibold text-gray-900 mb-3">HubSpot</h3>
-                  <ul class="list-disc pl-6 space-y-2">
-                    <li>Collects personal identifying information using javascript and cookies.</li>
-                    <li>Helps identify visitors, analyze email campaigns, track contact forms, and monitor ad performance.</li>
-                    <li>For more info: <a href="https://legal.hubspot.com/privacy-policy" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">HubSpot Privacy Policy</a>.</li>
+                    <li>Giúp phân tích cách khách truy cập sử dụng website.</li>
+                    <li>Để biết thêm thông tin: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Chính sách Bảo mật của Google</a>.</li>
+                    <li>Để từ chối: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Từ chối Google Analytics</a>.</li>
                   </ul>
                 </div>
 
                 <div class="bg-orange-50 p-6 rounded-lg">
-                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Leadsmax Session Cookies</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Session Cookies của Website</h3>
                   <ul class="list-disc pl-6 space-y-2">
-                    <li>We place a session cookie on your computer while you are viewing our Site.</li>
-                    <li>We may track information such as referring URL, next destination URL, browser type, and IP address for internal research.</li>
+                    <li>Chúng tôi đặt một session cookie trên máy tính của bạn khi bạn đang xem website.</li>
+                    <li>Chúng tôi có thể theo dõi thông tin như URL giới thiệu, URL đích tiếp theo, loại trình duyệt và địa chỉ IP cho nghiên cứu nội bộ.</li>
                   </ul>
                 </div>
 
                 <div class="bg-purple-50 p-6 rounded-lg">
-                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Third-Party Media Services</h3>
+                  <h3 class="text-xl font-semibold text-gray-900 mb-3">Dịch Vụ Truyền Thông Bên Thứ Ba</h3>
                   <ul class="list-disc pl-6 space-y-2">
-                    <li>From time to time, third-party services may display content on our Site.</li>
-                    <li>These services may use cookies we do not control. Their cookie use is governed by their own privacy policies.</li>
+                    <li>Thỉnh thoảng, các dịch vụ bên thứ ba có thể hiển thị nội dung trên website.</li>
+                    <li>Các dịch vụ này có thể sử dụng cookie mà chúng tôi không kiểm soát. Việc sử dụng cookie của họ được điều chỉnh bởi chính sách bảo mật riêng của họ.</li>
                   </ul>
                 </div>
               </div>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Opt-Out of Third-Party Cookies</h2>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Từ Chối Cookie Bên Thứ Ba</h2>
               <p>
-                You can opt out of all third-party vendors that use cookies by visiting the 
-                <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Network Advertising Initiative opt-out page</a>.
+                Bạn có thể từ chối tất cả các nhà cung cấp bên thứ ba sử dụng cookie bằng cách truy cập 
+                <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">trang từ chối Network Advertising Initiative</a>.
               </p>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Social Media (Facebook, Twitter, etc.)</h2>
-              <p>Our Site uses social features such as "Like" and "Tweet" buttons.</p>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Mạng Xã Hội (Facebook, Twitter, v.v.)</h2>
+              <p>Website sử dụng các tính năng xã hội như nút "Like" và "Tweet".</p>
               <ul class="list-disc pl-6 space-y-2 mt-4">
-                <li>These are controlled by the respective social networks, not Leadsmax.</li>
-                <li>Such networks may track your browsing activity if you are logged in to their services.</li>
-                <li>Leadsmax has no control over how these networks use your data.</li>
+                <li>Những thứ này được kiểm soát bởi các mạng xã hội tương ứng, không phải website.</li>
+                <li>Các mạng như vậy có thể theo dõi hoạt động duyệt web của bạn nếu bạn đã đăng nhập vào dịch vụ của họ.</li>
+                <li>Website không có quyền kiểm soát cách các mạng này sử dụng dữ liệu của bạn.</li>
               </ul>
             </section>
 
             <section>
-              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Any Questions?</h2>
-              <p>If you have any questions about this Cookie Policy or your personal data, please contact us at:</p>
+              <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Có Câu Hỏi?</h2>
+              <p>Nếu bạn có bất kỳ câu hỏi nào về chính sách Cookie này hoặc dữ liệu cá nhân của bạn, vui lòng liên hệ với chúng tôi:</p>
               <div class="bg-gray-50 p-6 rounded-lg mt-4">
-                <p class="font-semibold">Leadsmax Corporation</p>
-                <p>Attn: Cookie Policy Support</p>
-                <p>84 Ho Tung Mau</p>
-                <p>Da Nang, Viet Nam</p>
-                <p>Email: <a href="mailto:privacy@leadsmaxgroup.com" class="text-blue-600 hover:text-blue-800 underline">privacy@leadsmaxgroup.com</a></p>
+                <p class="font-semibold">Trần Sâm</p>
+                <p>Lập Trình Viên & Ảo Thuật Gia</p>
+                <p>Cầu Giấy, Hà Nội</p>
+                <p>Email: <a href="mailto:transamdhkh@gmail.com" class="text-blue-600 hover:text-blue-800 underline">transamdhkh@gmail.com</a></p>
+                <p>Điện thoại: <a href="tel:0868354016" class="text-blue-600 hover:text-blue-800 underline">0868354016</a></p>
               </div>
             </section>
           </div>
@@ -192,9 +183,9 @@
 <script setup>
 // Set page meta
 useHead({
-  title: 'Cookie Policy - Leadsmax Corporation',
+  title: 'Chính Sách Cookie - Trần Sâm',
   meta: [
-    { name: 'description', content: 'Leadsmax Corporation Cookie Policy - Learn about how we use cookies and similar technologies on our website.' },
+    { name: 'description', content: 'Chính sách Cookie của Trần Sâm - Lập trình viên & Ảo thuật gia. Tìm hiểu cách chúng tôi sử dụng cookie và các công nghệ tương tự trên website.' },
     { name: 'robots', content: 'index, follow' }
   ]
 })
