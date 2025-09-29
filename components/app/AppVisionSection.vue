@@ -22,7 +22,7 @@
                 </span>
               </h3>
               <p class="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-                Những khó khăn tài chính hàng ngày thúc đẩy chúng tôi tạo ra giải pháp toàn diện
+                Những khó khăn quản lý tài chính hàng ngày thúc đẩy chúng tôi tạo ra giải pháp toàn diện
               </p>
             </div>
             
@@ -32,7 +32,6 @@
               <div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center">
                 <div class="w-1 h-16 bg-gradient-to-b from-orange-500 to-transparent opacity-60 animate-pulse"></div>
                 <div class="w-0 h-0 border-l-4 border-r-4 border-t-8 border-l-transparent border-r-transparent border-t-orange-500 animate-bounce"></div>
-                <div class="mt-2 text-orange-500 text-sm font-semibold animate-pulse">↓ Giải pháp ↓</div>
               </div>
               <!-- Problem 1 -->
               <div class="group relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 border border-gray-700 hover:border-orange-500/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl">
