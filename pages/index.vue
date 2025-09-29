@@ -376,7 +376,7 @@
                             Huong Viet Group
                           </h4>
                           <span class="text-purple-300 text-sm font-medium"
-                            >Jun 2020 - Sep 2023</span
+                            >Jun 2020 - Sep 2021</span
                           >
               </div>
                         <p class="text-purple-200 font-semibold mb-2">
