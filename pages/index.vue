@@ -256,7 +256,6 @@
                   <p class="text-white/90 text-base mb-2">
                     Kỹ sư Công nghệ Thông tin
                   </p>
-                  <p class="text-blue-200 text-sm">Tốt nghiệp loại Khá</p>
             </div>
 
             <!-- Career Timeline -->
@@ -287,7 +286,7 @@
                           Senior Software Engineer
                         </p>
                         <p class="text-gray-300 text-sm">
-                          Dẫn dắt team phát triển dự án enterprise
+                          Cùng team phát triển dự án của tập đoàn Samsung
                         </p>
                       </div>
                 </div>
@@ -319,7 +318,7 @@
                           Software Developer
                         </p>
                         <p class="text-gray-300 text-sm">
-                          Phát triển UI cho dự án outsourcing, dẫn dắt team
+                          Phát triển tính năng cho dự án outsourcing, product. Dẫn dắt team
                           frontend
                         </p>
                       </div>
