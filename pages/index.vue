@@ -1445,26 +1445,39 @@ useHead({
     { name: "robots", content: "index, follow" },
     { name: "author", content: "Trần Sâm" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
-    { property: "og:title", content: "Trần Sâm - Lập Trình Viên & Ảo Thuật Gia Chuyên Nghiệp" },
-    { property: "og:description", content: "Dịch vụ lập trình web và ảo thuật chuyên nghiệp. 6+ năm kinh nghiệm lập trình, 10+ năm ảo thuật. Liên hệ ngay!" },
-    { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://transam.dev" },
-    { property: "og:image", content: "https://transam.dev/images/ab-1.webp" },
-    { property: "og:site_name", content: "Trần Sâm - Lập Trình & Ảo Thuật" },
-    { name: "twitter:card", content: "summary_large_image" },
+     { property: "og:title", content: "Trần Sâm - Lập Trình Viên & Ảo Thuật Gia Chuyên Nghiệp" },
+     { property: "og:description", content: "Dịch vụ lập trình web và ảo thuật chuyên nghiệp. 6+ năm kinh nghiệm lập trình, 10+ năm ảo thuật. Liên hệ ngay!" },
+     { property: "og:type", content: "website" },
+     { property: "og:url", content: "https://samtv.vercel.app" },
+     { property: "og:image", content: "https://samtv.vercel.app/images/ab-1.webp" },
+     { property: "og:image:width", content: "1200" },
+     { property: "og:image:height", content: "630" },
+     { property: "og:image:alt", content: "Trần Sâm - Lập Trình Viên & Ảo Thuật Gia" },
+     { property: "og:site_name", content: "Trần Sâm - Lập Trình & Ảo Thuật" },
+     { property: "og:locale", content: "vi_VN" },
+     { property: "article:author", content: "Trần Sâm" },
+     { property: "article:section", content: "Technology" },
+     { property: "article:tag", content: "lập trình, ảo thuật, web development" },
+     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:title", content: "Trần Sâm - Lập Trình Viên & Ảo Thuật Gia" },
-    { name: "twitter:description", content: "Dịch vụ lập trình web và ảo thuật chuyên nghiệp" },
-    { name: "twitter:image", content: "https://transam.dev/images/ab-1.webp" },
+    { name: "twitter:description", content: "Dịch vụ lập trình web và ảo thuật chuyên nghiệp. 6+ năm kinh nghiệm lập trình, 10+ năm ảo thuật. Liên hệ ngay!" },
+    { name: "twitter:image", content: "https://samtv.vercel.app/images/ab-1.webp" },
+    { name: "twitter:image:alt", content: "Trần Sâm - Lập Trình Viên & Ảo Thuật Gia" },
+    { name: "twitter:site", content: "@samtv" },
+    { name: "twitter:creator", content: "@samtv" },
     { name: "geo.region", content: "VN-HN" },
     { name: "geo.placename", content: "Hà Nội" },
     { name: "geo.position", content: "21.0285;105.8542" },
     { name: "ICBM", content: "21.0285, 105.8542" }
   ],
-  link: [
-    { rel: "canonical", href: "https://transam.dev" },
-    { rel: "alternate", hreflang: "vi", href: "https://transam.dev" },
-    { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
-  ],
+   link: [
+     { rel: "canonical", href: "https://samtv.vercel.app" },
+     { rel: "alternate", hreflang: "vi", href: "https://samtv.vercel.app" },
+     { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+     { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon.ico" },
+     { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.ico" },
+     { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon.ico" }
+   ],
   script: [
     {
       type: "application/ld+json",
@@ -1474,8 +1487,8 @@ useHead({
         "name": "Trần Sâm",
         "jobTitle": "Lập Trình Viên & Ảo Thuật Gia",
         "description": "Lập trình viên với 6+ năm kinh nghiệm và ảo thuật gia với 10+ năm trong nghề",
-        "url": "https://transam.dev",
-        "image": "https://transam.dev/images/ab-1.webp",
+         "url": "https://samtv.vercel.app",
+         "image": "https://samtv.vercel.app/images/ab-1.webp",
         "telephone": "+840868354016",
         "email": "transamdhkh@gmail.com",
         "address": {
@@ -1484,9 +1497,9 @@ useHead({
           "addressRegion": "Hà Nội",
           "addressCountry": "VN"
         },
-        "sameAs": [
-          "https://transam.dev"
-        ],
+         "sameAs": [
+           "https://samtv.vercel.app"
+         ],
         "knowsAbout": [
           "Lập Trình Web",
           "Frontend Development", 
