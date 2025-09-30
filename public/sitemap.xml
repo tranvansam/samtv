@@ -1,124 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   
   <!-- Homepage -->
   <url>
-    <loc>https://transam.dev/</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://samtv.vercel.app/</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/ab-1.webp</image:loc>
-      <image:title>Trần Sâm - Lập Trình Viên & Ảo Thuật Gia</image:title>
-    </image:image>
   </url>
   
-  <!-- Gallery -->
+  <!-- About Page -->
   <url>
-    <loc>https://transam.dev/gallery</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-1.webp</image:loc>
-      <image:title>Gallery Ảnh & Video Biểu Diễn Ảo Thuật</image:title>
-    </image:image>
-  </url>
-  
-  <!-- Blogs -->
-  <url>
-    <loc>https://transam.dev/blogs</loc>
-    <lastmod>2024-12-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-1.webp</image:loc>
-      <image:title>Blog Ảo Thuật & Lập Trình</image:title>
-    </image:image>
-  </url>
-  
-  <!-- Contact -->
-  <url>
-    <loc>https://transam.dev/contact</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://samtv.vercel.app/about</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- FAQs -->
+  <!-- Contact Page -->
   <url>
-    <loc>https://transam.dev/faqs</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://samtv.vercel.app/contact</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Gallery Page -->
+  <url>
+    <loc>https://samtv.vercel.app/gallery</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Pricing Page -->
+  <url>
+    <loc>https://samtv.vercel.app/pricing</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Blog Posts -->
+  <!-- FAQs Page -->
   <url>
-    <loc>https://transam.dev/blogs/1</loc>
-    <lastmod>2024-12-15</lastmod>
+    <loc>https://samtv.vercel.app/faqs</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-1.webp</image:loc>
-      <image:title>Ảo Thuật Là Gì? Khám Phá Thế Giới Kỳ Diệu Của Nghệ Thuật Ảo Thuật</image:title>
-    </image:image>
   </url>
   
+  <!-- Blog Pages -->
   <url>
-    <loc>https://transam.dev/blogs/2</loc>
-    <lastmod>2024-12-10</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://samtv.vercel.app/blogs</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-2.webp</image:loc>
-      <image:title>Lịch Sử Ảo Thuật: Từ Cổ Đại Đến Hiện Đại</image:title>
-    </image:image>
   </url>
   
+  <!-- Privacy Policy -->
   <url>
-    <loc>https://transam.dev/blogs/3</loc>
-    <lastmod>2024-12-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-3.webp</image:loc>
-      <image:title>Các Loại Ảo Thuật Phổ Biến: Close-up, Stage, Mentalism</image:title>
-    </image:image>
+    <loc>https://samtv.vercel.app/privacy-policy</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   
+  <!-- Cookie Policy -->
   <url>
-    <loc>https://transam.dev/blogs/4</loc>
-    <lastmod>2024-12-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-4.webp</image:loc>
-      <image:title>Học Ảo Thuật Từ Cơ Bản: Hướng Dẫn Cho Người Mới Bắt Đầu</image:title>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://transam.dev/blogs/5</loc>
-    <lastmod>2024-11-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-1.webp</image:loc>
-      <image:title>Tâm Lý Học Trong Ảo Thuật: Cách Đọc Suy Nghĩ Khán Giả</image:title>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://transam.dev/blogs/6</loc>
-    <lastmod>2024-11-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://transam.dev/images/blog-2.webp</image:loc>
-      <image:title>Ảo Thuật Bài: Nghệ Thuật Của Những Lá Bài</image:title>
-    </image:image>
+    <loc>https://samtv.vercel.app/cookie-policy</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   
 </urlset>

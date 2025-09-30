@@ -1442,9 +1442,19 @@ useHead({
       name: "keywords",
       content: "lập trình viên, ảo thuật gia, frontend development, backend development, full stack, ảo thuật gần, ảo thuật sân khấu, workshop ảo thuật, React, Vue.js, Node.js, Python, PHP, Trần Sâm, Hà Nội"
     },
-    { name: "robots", content: "index, follow" },
+    { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" },
     { name: "author", content: "Trần Sâm" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+    { name: "googlebot", content: "index, follow" },
+    { name: "bingbot", content: "index, follow" },
+    { name: "language", content: "vi" },
+    { name: "revisit-after", content: "7 days" },
+    { name: "rating", content: "general" },
+    { name: "distribution", content: "global" },
+     { name: "target", content: "all" },
+     { name: "google-site-verification", content: "your-google-verification-code" },
+     { name: "msvalidate.01", content: "your-bing-verification-code" },
+     { name: "yandex-verification", content: "your-yandex-verification-code" },
      { property: "og:title", content: "Trần Sâm - Lập Trình Viên & Ảo Thuật Gia Chuyên Nghiệp" },
      { property: "og:description", content: "Dịch vụ lập trình web và ảo thuật chuyên nghiệp. 6+ năm kinh nghiệm lập trình, 10+ năm ảo thuật. Liên hệ ngay!" },
      { property: "og:type", content: "website" },
@@ -1476,7 +1486,10 @@ useHead({
      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
      { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon.ico" },
      { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.ico" },
-     { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon.ico" }
+     { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon.ico" },
+     { rel: "sitemap", type: "application/xml", href: "/sitemap.xml" },
+     { rel: "preconnect", href: "https://fonts.googleapis.com" },
+     { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" }
    ],
   script: [
     {
@@ -1537,11 +1550,23 @@ useHead({
             "description": "Ảo thuật gần, sân khấu, workshop",
             "category": "Ảo Thuật"
           }
-        ]
-      })
-    }
-  ]
-});
+         ]
+       })
+     },
+     {
+       type: "text/javascript",
+       innerHTML: `
+         // Google Analytics
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         ga('create', 'GA_MEASUREMENT_ID', 'auto');
+         ga('send', 'pageview');
+       `
+     }
+   ]
+ });
 
 // Featured gallery items for homepage
 const featuredGalleryItems = ref([
